@@ -1,0 +1,23 @@
+server:
+  port: 9100
+
+hikari:
+  common:
+    jdbc-url: jdbc:mysql://192.168.1.106:3306/ca_study?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true&serverTimezone=CTT
+    username: root
+    password: obUgzK7^
+    maximum-pool-size: 10
+  cnDb:
+    jdbc-url: jdbc:mysql://192.168.1.106:3306/ca_study_cn?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true&serverTimezone=CTT
+    username: root
+    password: obUgzK7^
+    maximum-pool-size: 10
+  enDb:
+    jdbc-url: jdbc:mysql://192.168.1.106:3306/ca_study_en?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true&serverTimezone=CTT
+    username: root
+    password: obUgzK7^
+    maximum-pool-size: 10
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
